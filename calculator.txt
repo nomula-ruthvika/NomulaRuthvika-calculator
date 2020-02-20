@@ -1,0 +1,32 @@
+class Calculator
+{
+static void Add(int no1,int no2)
+{
+System.out.println("addition is"+(no1+no2));
+}
+static void Sub(int no1,int no2)
+{
+System.out.println("subtraction is"+(no1-no2));
+}
+static void Mul(int no1,int no2)
+{
+System.out.println("multiplication is"+(no1*no2));
+}
+static void Div(int no1,int no2)
+{
+System.out.println("division is" +(no1/no2));
+}
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+int no1,no2;
+System.out.println("enter number 1");
+no1=sc.nextInt();
+System.out.println("enter number 2");
+no2=sc.nextInt();
+Add(no1,no2);
+Sub(no1,no2);
+Mul(no1,no2);
+Div(no1,no2);
+}
+}
